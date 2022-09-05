@@ -22,9 +22,9 @@ function setup() {
      isStatic: true
    };
 
-  var particle_opitions ={
-    reustution:0.4,
-    frictionAir :0.02
+  //var particle_opitions ={
+    //reustution:0.4,
+    //frictionAir :0.02
   }
 particle1 = Bodies.circle(220,10,10,plane_options)
 World.add(world,particle1)
@@ -73,10 +73,10 @@ rect(0,0,150,20)
 pop()
 angle1 +=0.02
 
-   fan = new Ground(50,350,10,70)
-   fan1 = new Ground(150,350,10,70)
-   fan2 = new Ground(250,350,10,70)
-   fan3 = new Ground(350,350,10,70)
+   //fan = new Ground(50,350,10,70)
+   //fan1 = new Ground(150,350,10,70)
+   //fan2 = new Ground(250,350,10,70)
+   //fan3 = new Ground(350,350,10,70)
 
 
 
@@ -106,10 +106,10 @@ function draw() {
   
   ellipse(ball.position.x,ball.position.y,20);
   rect(ground.position.x,ground.position.y,650,20)
-  fan.show()
-  fan1.show()
-  fan2.show()
-  fan3.show()
+  //fan.show()
+  //fan1.show()
+  //fan2.show()
+  //fan3.show()
 }
 
 //criar function vForce
